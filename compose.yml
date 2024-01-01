@@ -6,7 +6,7 @@ services:
     image: frontend
     build:
       context: ./frontend
-      dockerfile: frontend.
+      dockerfile: frontend.dockerfile
     ports:
       - 3000:3000
     environment:
